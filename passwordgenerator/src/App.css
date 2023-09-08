@@ -1,0 +1,74 @@
+body{
+  background-color: olive;
+  color: aliceblue;
+
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.inputbutton input{
+  width: 400px;
+ 
+  outline: none;
+  padding: 4px;
+  border: none;
+ 
+}
+
+.container{
+  width: 38%;
+  background-color: orange;
+  color: black;
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 10px;
+}
+.inputbutton{
+  overflow: hidden;
+  min-width: 400px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  
+  /* background-color: white; */
+  font-size: 25px;
+  width: 470px;
+}
+.inputbutton .btn{
+  background-color: rgb(58, 58, 212);
+  color: aliceblue;
+  font-size: 17px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+
+  
+  width: 55px;
+  
+  cursor: pointer;
+}
+.btn:hover{
+  scale: 1.1;
+
+}
+.secondline{
+  display: flex;
+  align-items: center;
+  
+  gap: 60px;
+  margin-top: 10px;
+}
+.tree{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

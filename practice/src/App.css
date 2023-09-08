@@ -1,0 +1,22 @@
+body{
+  background-color: olive;
+}
+
+.container{
+
+  width: 100vw;
+}
+
+.container2{
+
+  min-height: 30vw;
+  border: 2px solid red;
+  border-radius: 5px;
+  width: 30vw;
+  margin: auto;
+  
+  
+
+
+
+}
