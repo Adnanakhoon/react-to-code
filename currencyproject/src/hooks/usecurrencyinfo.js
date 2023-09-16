@@ -9,7 +9,7 @@ function usecurrencyinfo(currency){
         .then((res)=>setdata(res[currency]))
      
     }, [currency])
-    return data
+    return data 
        
 }
 

@@ -53,7 +53,7 @@ function InputBox({
                       )}
                 
                 </select>
-            </div>
+            </div> 
         </div>
     );
 }
